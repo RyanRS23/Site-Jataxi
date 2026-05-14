@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+}
+
+.container ul li{
+    margin-right: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    margin-left: 20px;
+}

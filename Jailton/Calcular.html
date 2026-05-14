@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calcular Valor - JATAXI</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+    </style>
+<link rel="stylesheet" href="Calcular.css">
+</head>
+<body>
+    <section>
+        <form onsubmit="result(); return false;">
+        <h3>Calcular Valor</h3>
+
+        <input type="number" placeholder="Informe a distância (km)" required id="Num1"><br><br>
+
+        <input type="number" placeholder="Valor Dos Pedágios" id="Num2"><br><br>
+
+        <button type="submit">Calcular Valor</button>
+
+        <h3 id="Resultado"></h3>
+        </form>
+
+        <script>
+            function result(){
+                let n1 = Number(document.getElementById('Num1').value);
+                let n2 = Number(document.getElementById('Num2').value);
+
+                let result = 5 + (n1 * 2) + n2;
+
+                document.getElementById("Resultado").innerText = "Resultado: R$ " + result;
+        }
+        </script>  
+    </section>
+</body>
+</html>
