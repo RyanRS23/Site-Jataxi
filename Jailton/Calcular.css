@@ -12,6 +12,7 @@ form{
     flex-direction: column;
     justify-content: center;
     width: 300px;
+    margin: auto;
     text-align: center;
     background-color: white;
     box-shadow: 5px 0px 10px black;
@@ -33,11 +34,17 @@ button{
 }
 
 button:hover{
-     background: rgb(70, 248, 16);
+    background: rgb(70, 248, 16);
     height: 35px;
     color: whitesmoke;
 }
 
 #Resultado{
     color: lime;
+}
+
+.ui{
+    color: white;
+    text-align: center;
+    display: flex;
 }
