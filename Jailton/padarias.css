@@ -1,0 +1,23 @@
+.hp {
+    text-align: center;
+    color: blue;
+}
+
+.pads{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    margin: auto;
+    box-shadow: 0px 0px 30px gray;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+.img:hover{
+    background-color: rgba(65, 63, 63, 0.356);
+    position: relative;
+    top: -15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
