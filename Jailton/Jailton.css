@@ -5,9 +5,11 @@
 .topo{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     background-color: rgb(40, 40, 40);
     margin-top: -8px;
+    padding: 10px;
+    width: 97.2%;
+    position: fixed;
 }
 
 .lista ul{
@@ -23,7 +25,7 @@
     font-size: 20px;
     border-radius: 30px;
     padding: 10px;
-    color: blue;
+    color: rgb(1, 199, 199);
     text-decoration: none;
 }
 
@@ -69,9 +71,14 @@
     margin-top: 100px;
 }
 
-.botões div img:hover{
-    background-color: grey;
+.botões div img{
     border-radius: 60px;
+}
+
+.botões div img:hover{
+    background-color: rgba(128, 128, 128, 0.493);
+    transition: 0.3s;
+    margin-top: -15px;
 }
 
 .baixo{
