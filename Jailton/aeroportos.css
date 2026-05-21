@@ -51,3 +51,13 @@
   text-decoration: none;
 }
 
+.baixo{
+    padding: 40px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.baixo p a{
+    color: darkcyan;
+}
+

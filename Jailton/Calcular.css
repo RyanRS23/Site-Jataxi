@@ -16,7 +16,7 @@ form{
     text-align: center;
     background-color: white;
     box-shadow: 5px 0px 10px black;
-    margin-top: 150px;
+    margin-top: 50px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -24,6 +24,7 @@ input{
     border-radius: 10px;
     height: 25px;
     text-align: center;
+    outline: none;
 }
 
 button{
@@ -31,12 +32,14 @@ button{
     border-radius: 10px;
     height: 30px;
     font-size: 15px;
+    transition: 0.5s;
 }
 
 button:hover{
-    background: rgb(70, 248, 16);
+    background-color: white;
     height: 35px;
-    color: whitesmoke;
+    color: rgb(70, 248, 16);
+    transition: 0.5s;
 }
 
 #Resultado{
@@ -47,4 +50,16 @@ button:hover{
     color: white;
     text-align: center;
     display: flex;
+    justify-content: center;
+}
+
+.baixo{
+    padding: 40px;
+    background-color: rgb(78, 77, 77);
+    color: white;
+    margin-top: 50px;
+}
+
+.baixo p a{
+    color: darkcyan;
 }
