@@ -1,0 +1,40 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+
+body{
+    background-color: rgb(19, 18, 18);
+    background-repeat: no-repeat;
+    height: 880px;
+}
+
+.wifi{
+    padding: 50px 30px;
+    background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35%;
+    box-shadow: 0px 0px 30px grey;
+    border: 2px solid black;
+    top: 25%;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.wifi:hover{
+    background: linear-gradient(white, black);
+    color: white;
+    margin-top: -20px;
+    transition: 0.5s;
+}
+
+.sixseven{
+    padding: 10px;
+}
