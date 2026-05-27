@@ -11,7 +11,11 @@
 <link rel="stylesheet" href="Calcular.css">
 </head>
 <body>
+    
     <section>
+        <div class="ui">
+    <h1>Estrutura Cálculo: R$ 5.00 fixo + R$ 2,00 p/km + valor dos pedágios</h1>
+    </div>
         <form onsubmit="result(); return false;">
         <h3>Calcular Valor</h3>
 
@@ -19,10 +23,12 @@
 
         <input type="number" placeholder="Valor Dos Pedágios" id="Num2"><br><br>
 
-        <button type="submit">Calcular Valor</button>
+        <button type="submit"><strong>Calcular Valor</strong></button>
 
         <h3 id="Resultado"></h3>
         </form>
+
+        
 
         <script>
             function result(){
@@ -34,6 +40,14 @@
                 document.getElementById("Resultado").innerText = "Resultado: R$ " + result;
         }
         </script>  
+                <section class="baixo">
+        <p>© 2016–2026, JATAXI. Todos os direitos reservados.
+            Para mais detalhes, consulte nossos Avisos Legais. Ao utilizar este site, você concorda com nossos <a href="Termos.html">Termos de Uso e Política de Privacidade.</a>
+            Para mais informações sobre como registrar uma reclamação, visite nossa página de Atendimento ao Cliente.
+</p>
     </section>
+
+    </section>
+
 </body>
 </html>

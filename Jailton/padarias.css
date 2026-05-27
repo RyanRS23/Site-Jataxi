@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hp {
+    text-align: center;
+    color: burlywood;
+    font-size: 4.5vw;
+}
+
+.pads{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    box-shadow: 0px 0px 30px gray;
+    border-radius: 20px;
+    margin-top: 70px;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.img:hover{
+    background-color: rgba(65, 63, 63, 0.356);
+    position: relative;
+    top: -15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.baixo{
+    padding: 4vw;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    
+}
+
+.baixo p a{
+    color: darkcyan;
+}
