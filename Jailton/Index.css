@@ -73,11 +73,12 @@
 
 .botões div img{
     border-radius: 60px;
+    transition: 0.4s;
 }
 
 .botões div img:hover{
-    background-color: rgba(128, 128, 128, 0.493);
-    transition: 0.3s;
+    background-color: rgba(170, 170, 170, 0.315);
+    transition: 0.4s;
     margin-top: -15px;
 }
 
