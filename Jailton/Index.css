@@ -90,4 +90,10 @@
 
 .baixo p a{
     color: darkcyan;
+    transition: 0.2s;
+}
+
+.baixo p a:hover{
+    color: blueviolet;
+    transition: 0.2s;
 }
