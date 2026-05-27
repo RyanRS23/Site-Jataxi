@@ -2,7 +2,7 @@ section{
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 10px;
+    gap: 20px;
 }
 
 body {
@@ -33,9 +33,8 @@ a {
 
 a:hover {
     background-color: rgb(35, 35, 107);
-    padding: 30px;
+    transform: scale(1.2);
     transition: 0.3s;
-    margin-top: -10px;
 }
 
 a img {
